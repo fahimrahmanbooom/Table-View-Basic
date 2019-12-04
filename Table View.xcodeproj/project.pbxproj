@@ -13,6 +13,7 @@
 		FF74E642238A951D002BCBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF74E640238A951D002BCBCC /* Main.storyboard */; };
 		FF74E644238A951E002BCBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF74E643238A951E002BCBCC /* Assets.xcassets */; };
 		FF74E647238A951E002BCBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF74E645238A951E002BCBCC /* LaunchScreen.storyboard */; };
+		FF74E64F238A9972002BCBCC /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74E64E238A9972002BCBCC /* customTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FF74E643238A951E002BCBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF74E646238A951E002BCBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF74E648238A951E002BCBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF74E64E238A9972002BCBCC /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FF74E63A238A951D002BCBCC /* AppDelegate.swift */,
 				FF74E63C238A951D002BCBCC /* SceneDelegate.swift */,
 				FF74E63E238A951D002BCBCC /* ViewController.swift */,
+				FF74E64E238A9972002BCBCC /* customTableViewCell.swift */,
 				FF74E640238A951D002BCBCC /* Main.storyboard */,
 				FF74E643238A951E002BCBCC /* Assets.xcassets */,
 				FF74E645238A951E002BCBCC /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				FF74E63F238A951D002BCBCC /* ViewController.swift in Sources */,
 				FF74E63B238A951D002BCBCC /* AppDelegate.swift in Sources */,
+				FF74E64F238A9972002BCBCC /* customTableViewCell.swift in Sources */,
 				FF74E63D238A951D002BCBCC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Table-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Table-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
